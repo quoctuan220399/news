@@ -101,7 +101,7 @@ $(document).ready(function () {
                 $('.active1').addClass('active');
                 $('.active1').removeClass('active1');
             },500);}
-    },5000);
+    },20000);
 
     var vt1 = $('.slider').offset().top;
     $(window).scroll(function () { 

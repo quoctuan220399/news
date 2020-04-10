@@ -598,15 +598,15 @@ transition: 0.5s;
     width: 100%;
     position: relative;
     top: 100px;
+    height: 100%;
 }
 
 .body1 {
     width: 90%;
     margin: auto;
     text-align: center;
+    margin-top: 100px;
 }
-
-.tittle {}
 
 .tittle p {
     text-transform: uppercase;
@@ -620,12 +620,14 @@ transition: 0.5s;
     font-family: sans-serif;
     font-weight: 500;
     color: #232222;
+    margin: 8px 0px;
 }
 
 ul.card {
     list-style: none;
     width: 100%;
     display: flex;
+    margin-top: 75px;
 }
 
 ul.card>li {
@@ -691,4 +693,12 @@ ul.card>li {
 .violet{
 
     background: #780bd5;
+}
+
+img.vio {
+    opacity: 0.3;
+}
+
+ul.card li:nth-child(2) {
+    margin-top: -25px;
 }
