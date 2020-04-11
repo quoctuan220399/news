@@ -104,6 +104,7 @@ $(document).ready(function () {
     },20000);
 
     var vt1 = $('.slider').offset().top;
+    var vt2 = $('.body2').offset().top-100;
     $(window).scroll(function () { 
         
         var scr = $('html').scrollTop();
@@ -112,11 +113,24 @@ $(document).ready(function () {
         if(scr >= vt1){
 
             $('header').addClass('gan');
+            $('.arrow-top').addClass('vis');
         }
 
         else{
 
             $('header').removeClass('gan');
+            $('.arrow-top').removeClass('vis');
         }
+
+        if(scr >= vt2){
+
+            $('.bd2-left').addClass('contact');
+            $('.bd2-right').addClass('contact1');
+        }
+    });
+
+    $('.arrow-top').click(function(){
+
+        $('html').animate({scrollTop:0},600);
     });
 });
