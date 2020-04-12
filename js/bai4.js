@@ -166,4 +166,48 @@ $(document).ready(function () {
             filter:data
         });
     });
+
+    $('.search-vio').click(function(){
+
+        var num = $(this).data('num');
+        $('.img-black').addClass('show');
+        $('.img-bl li').removeClass('de');
+        $('.img-bl li:nth-child('+(num)+')').addClass('de');
+    });
+
+    $('.choose i.fa.fa-times').click(function(){
+
+        $('.img-black').removeClass('show');
+        $('ul.img-bl').removeClass('mat');
+       $('.img-share').removeClass('show1');
+       $('ul.img-bl').removeClass('big-img');
+       $('.i-b').removeClass('more-black');
+    });
+
+    $('.i-b').click(function(){
+
+        $('.img-black').removeClass('show');
+        $('ul.img-bl').removeClass('mat');
+       $('.img-share').removeClass('show1');
+       $('ul.img-bl').removeClass('big-img');
+       $('.i-b').removeClass('more-black');
+    });
+
+    $('.img-share i.fa.fa-times').click(function(){
+
+        $('ul.img-bl').removeClass('mat');
+       $('.img-share').removeClass('show1');
+    });
+
+    $('.choose i.fa.fa-window-maximize').click(function(){
+
+        $('ul.img-bl').addClass('big-img');
+        $('.i-b').addClass('more-black');
+    });
+
+    $('.choose i.fa.fa-share').click(function(){
+
+       $('ul.img-bl').addClass('mat');
+       $('.img-share').addClass('show1');
+    });
 });

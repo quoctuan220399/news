@@ -1221,3 +1221,187 @@ ul.bd4-img li img {
 .next-dad img {
     width: 75%;
 }
+
+.img-black {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.img-black:hover .choose{
+
+opacity: 1;
+visibility: visible;
+transition: 0.5s;
+}
+
+.img-black.show{
+
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.i-b {
+    width: 100%;
+    height: 100%;
+    background: #000000b8;
+    transition: 0.5s;
+}
+
+.i-b.more-black{
+
+    background: black;
+    transition: 0.5s;
+}
+
+.choose {
+    position: absolute;
+    top: 0px;
+    left: 89%;
+    color: #fff;
+    background: #0000008a;
+    height: 30px;
+    padding-top: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+ul.img-bl {
+    position: absolute;
+    top: 180px;
+    width: 28%;
+    height: 270px;
+    left: 500px;
+    transition: 0.5s;
+}
+
+ul.img-bl img{
+
+    width: 100%;
+    transition: 0.5s;
+}
+
+ul.img-bl.big-img img{
+
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+ul.img-bl.mat{
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+ul.img-bl li {
+    list-style: none;
+    position: absolute;
+    cursor: -webkit-grab;
+}
+
+ul.img-bl li.de{
+
+    z-index: 1;
+}
+
+.choose a {
+    padding: 0px 15px;
+    cursor: pointer;
+    color: #ffffffa8;
+    transition: 0.5s;
+}
+
+.choose a:hover i{
+
+    color: #fff;
+    transition: 0.5s;
+}
+
+.img-share {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    width: 35%;
+    background: #fff;
+    height: 185px;
+    border-radius: 5px;
+    padding: 10px 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.img-share.show1{
+
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.icon-share {
+    display: inline-block;
+    padding: 10px 10px;
+    background: #3b5998;
+    width: 20%;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.icon-share a span{
+
+    transition: 0.5s;
+}
+
+.icon-share:hover a span{
+
+    color: #0056b3;
+    transition: 0.5s;
+}
+
+.icon-share a {
+    color: #fff;
+    text-decoration: none;
+    word-spacing: 6px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.img-share i.fa.fa-times {
+    margin-left: 430px;
+    color: gray;
+    cursor: pointer;
+}
+
+.img-share p {
+    color: gray;
+    margin: 20px;
+    margin-left: -95px;
+    letter-spacing: 1px;
+}
+
+.img-share p::after{
+
+content: "";
+position: absolute;
+top: 170px;
+left: 42px;
+height: 2px;
+background: #8080803b;
+width: 80%;
+margin: auto;
+}
+
+.img-share h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
