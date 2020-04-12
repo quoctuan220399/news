@@ -148,9 +148,22 @@ $(document).ready(function () {
         $('html').animate({scrollTop:0},600);
     });
 
+
     $('ul.bd4-list li').click(function(){
 
         $('ul.bd4-list li').removeClass('hem');
         $(this).addClass('hem');
+        var data = '.'+$(this).attr('data-fillter');
+        console.log(data);
+        $('ul.bd4-img').css({
+            'display':'flex',
+            'justify-content':'space-evenly'
+        });
+        $('ul.bd4-img').isotope({
+            itemSelector:'li'
+        });
+        $('ul.bd4-img').isotope({
+            filter:data
+        });
     });
 });

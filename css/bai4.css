@@ -1084,7 +1084,7 @@ ul.wb li:nth-child(6){
     background: white;
     text-align: center;
     padding-top: 100px;
-    height: 500px;
+    height: 934px;
 }
 
 
@@ -1096,6 +1096,7 @@ ul.bd4-list {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
 }
 
 ul.bd4-list li {
@@ -1131,4 +1132,92 @@ left: 0px;
 background: #780bd5;
 opacity: 0;
 visibility: hidden;
+}
+
+.ul-dad {
+    width: 100%;
+}
+
+ul.bd4-img {
+    width: 90%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 85px;
+}
+
+ul.bd4-img li {
+    width: 30%;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 12px 15px;
+    height: 266px;
+}
+
+ul.bd4-img li:hover img{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+ul.bd4-img li:hover .search-vio{
+
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+ul.bd4-img li img {
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.search-vio {
+    position: absolute;
+    top: 0px;
+    padding-top: 130px;
+    width: 100%;
+    height: 287px;
+    background: #6f1abdd1;
+    border-radius: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.search-vio a {
+    padding: 16px 18px;
+    background: #ffffff7d;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.search-vio a:hover{
+
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+.search-vio .i.fa.fa-search {font-weight: 600;
+    font-size: 22px;}
+
+.next-dad {
+    width: 8%;
+    margin: 5px 120px;
+    animation: roay 25s linear infinite;
+}
+@keyframes roay{
+
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.next-dad img {
+    width: 75%;
 }
