@@ -106,6 +106,7 @@ $(document).ready(function () {
     var vt1 = $('.slider').offset().top;
     var vt2 = $('.body2').offset().top-100;
     var vt3 = $('.body3').offset().top-100;
+    var vt4 = $('.boy6').offset().top;
     $(window).scroll(function () { 
         
         var scr = $('html').scrollTop();
@@ -141,6 +142,14 @@ $(document).ready(function () {
 
             $('.img-top').removeClass('top0');
         }
+        if(scr >= vt4){
+
+            $('.bd6-img').addClass('mounted');
+         }
+         else{
+
+            $('.bd6-img').removeClass('mounted');
+         }
     });
 
     $('.arrow-top').click(function(){

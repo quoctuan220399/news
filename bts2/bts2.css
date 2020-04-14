@@ -1,0 +1,97 @@
+*{margin: 0;padding: 0;}
+
+
+/* navbar */
+.row.nav {
+    width: 100%;
+}
+
+.col-sm-1.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col-sm-7.nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
+    box-shadow: 0px 0px 5px #00000030;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* body1 */
+.body1 {
+    margin-top: 72px;
+}
+
+.row.bd1-card {
+    padding: 0px 100px;
+    margin-top: 30px;
+}
+
+.card-tittle.text-center {
+    padding: 10px 0px;
+    background: rgba(0,0,0,.03);
+    border: 1px solid #8080800a;
+}    
+
+.row.bd1-text .col-sm-8.text-center.mx-auto.text-secondary {
+    padding: 0px 40px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.row.bd1-tittle {
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 120px;
+}
+
+span.text-muted {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+span.text-dark {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+p.card-text.text-center {
+    font-size: 16px;
+}
+
+a.btn.btn-outline-primary.btn-block {
+    padding: 8px 0px;
+    font-size: 20px;
+}
+
+a.btn.btn-primary.btn-block {
+    padding: 8px 0px;
+    font-size: 20px;
+}
+
+
+
+/* footer */
+p.text-dark {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.col-sm-2.ft {
+    padding: 0px 25px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.col-sm-4.ft {padding-left: 130px;padding-top: 10px;}
