@@ -1,0 +1,214 @@
+*{padding: 0;margin: 0;}
+
+$yellow:#fed136;
+$white:#fff;
+$black:#000;
+$y1:#ffc107;
+$dark:#212529;
+
+body.hide{
+
+    overflow-y: hidden;
+}
+
+body.hide .navbar{
+
+    z-index: 0;
+}
+
+.navbar{
+
+    transition: 0.5s;
+}
+
+.navbar.small{
+
+    background: $dark;
+    padding: 16px 16px !important;
+    transition: 0.5s;
+}
+
+.navbar img{
+
+    transition: 0.5s;
+}
+
+.navbar.small img{
+
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.row.nav {
+    width: 100%;
+}
+
+.col-xs-12.nav {
+    display: flex;
+    width: 100%;
+}
+
+a.nav-link {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: $white;
+    transition: 0.5s;
+}
+
+a.nav-link:hover{
+
+color: $yellow;
+transition: 0.5s;
+}
+
+header {
+    background: url(../images/header-bg.jpg);
+    background-size: cover;
+    height: 630px;
+    background-position: center;
+}
+
+header h3 {
+    font-size: 40px;
+    font-family: initial;
+}
+
+header h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header a {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    font-size: 19px !important;
+    background: $yellow !important;
+    padding: 20px 40px !important;
+}
+
+header a:hover{
+
+background: $y1 !important;
+}
+
+svg{
+
+    width: 75px;
+    height: 60px;
+}
+
+.yellow{
+
+    background: $yellow;
+    width: 125px;
+    height: 125px;
+}
+
+.body1 h2 {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.col-xs-12.text-center.mx-auto {
+    font-size: 17px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.body1 h3 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.body1 p.text-muted {
+    font-weight: 480;
+    font-size: 17px;
+}
+
+.card-img-overlay {
+    padding: 0px;
+    background: rgba(254, 209, 54, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.body2 .card {
+    border-radius: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.body2 h4{
+
+    background: $white;
+}
+
+.body2 .card .card-img{
+
+    border-radius: 0px;
+}
+
+.body2 .card:hover .card-img-overlay{
+
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.top-info {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #00000082;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.top-info.show{
+
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+    transition: 0.5s;
+}
+
+.top-info.show .container-fluid{
+
+    transform: translateY(0%);
+    transition: 1.2s;
+}
+
+.container-fluid {
+    width: 97%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translateY(-100%);
+    transition: 1.2s;
+}
+
+.zdex{
+    z-index: 2;
+}
+
+.row.close svg{
+
+    cursor: pointer;
+}
+
+.row.bd3 p.text-muted {
+    text-align: end;
+}
+
+.body3 .col-xs-12 {
+    display: flex;
+}
