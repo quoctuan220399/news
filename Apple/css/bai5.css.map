@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAC;EAAC,MAAM,EAAE,CAAC;EAAC,OAAO,EAAE,CAAC;;AAEtB,gBAAgB;EAEZ,KAAK,EAAE,eAAe;EACtB,UAAU,EAAE,IAAI;;AAGpB,YAAa;EACT,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,GAAG",
+"sources": ["bai5.scss"],
+"names": [],
+"file": "bai5.css"
+}
