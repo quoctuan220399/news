@@ -1,0 +1,244 @@
+*{padding: 0;margin: 0;}
+
+$colornav:#484848;
+$colorheader:#fff;
+$colorname:#555555;
+$gredient:#c7c7c7;
+$price:#818181;
+// navbar
+.row.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row.nav .nav-item {
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 0px 13px;
+}
+
+.row.nav .nav-item a.nav-link{
+
+    color: $colornav !important;
+    font-family: 'Aleo', regular !important;
+}
+
+nav.navbar{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+// header
+header h1.card-title {
+    font-size: 100px;
+    font-family: 'WC Mano Negra Bta', arial;
+}
+
+.header .card-img-overlay {
+    padding: 200px 0px;
+    color: $colorheader;
+}
+
+header p.card-text {
+    font-size: 17px;
+    font-weight: 500;
+    color: $colorheader;
+    position: relative;
+    font-family: 'Aleo', regular !important;
+}
+
+header p.card-text::after{
+
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #fff;
+    width: 3%;
+    top: 15px;
+    margin-left: 30px;
+}
+
+header p.card-text::before{
+
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #fff;
+    width: 3%;
+    top: 15px;
+    left: 430px;
+}
+
+.row.header .card-img {
+    border: 1px;
+    border-radius: 0px !important;
+}
+
+.card.header.mx-0.my-0 {
+    border: 1px;
+}
+
+
+// Menu
+.Menu li.list-group-item {
+    border: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Name h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+    color: $colorname;
+    font-family:'Aleo', regular !important ;
+}
+
+.price p {font-size: 16px;
+color: $colorname;
+font-family:'Aleo', Light Italic !important ;
+font-weight: 600px;
+}
+
+.Name p {
+    font-size: 12px;
+    color: $gredient;
+    font-family:'Aleo', regular !important ;
+}
+
+.Name{
+    position: relative;
+}
+
+li .Name::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #e3e1e1;
+    top: 10px;
+    left: 240px;
+}
+
+.col-xs-12.load {
+    display: flex;
+    padding: 5px 15px;
+    border: 1px solid #d7d5d5;
+    position: relative;
+}
+
+.col-xs-12.load p {
+    padding-right:30px;
+    font-size: 14px;
+    font-family: 'Aleo', regular !important;
+    color: #b7b7b7;
+    position: relative;
+}
+
+.col-xs-12.load p::after{
+
+    content: "";
+    position: absolute;;
+    width: 1px;
+    height: 10px;
+    color: #b7b7b7;
+}
+
+.row.fe .card-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    padding-right: 2px;
+}
+
+.row.fe .card{
+
+    width: 230px;
+    height: 200px;
+}
+
+.card-body h5{
+
+    color: #828282;
+    font-family:  'Aleo', Light !important;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.card-body p{
+
+    color: #828282;
+    font-family:  'Aleo', Light !important;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.row.fe .card {
+    border: 0px;
+}
+
+.row.fe ul{
+  display: flex !important;
+   list-style: none;
+}
+
+.row.fe img.card-img-top {
+    border-radius: 0px;
+}
+
+.row.fea h3{
+
+    font-size: 25px;
+    font-family: 'Aleo', Bold !important; 
+    font-weight: 600;
+}
+
+.row.fea{
+
+    position: relative;
+}
+
+.row.fea::after{
+
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 230px;
+    width: 18%;
+    height: 1px;
+    background: #e5e3e3;
+}
+
+.card-columns .card {
+    margin: 0;
+    border: 0px;
+}
+
+.card-columns {width: 9;width: 90;width: 97%;}
+
+footer{
+
+    background: #3b3b3b;
+}
+
+.row.ft h5{
+
+    color: $colorheader;
+    font-family: 'Aleo', Bold !important;
+}
+
+.row.ft h6{
+
+    color: $colorheader;
+    font-family: 'Aleo', Bold !important;
+    display: inline;
+}
+
+.row.ft p{
+
+    color: #e3e1e1;
+    font-weight: 100;
+    font-family: 'Aleo', Bold !important;
+}
